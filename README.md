@@ -21,7 +21,7 @@ Run the command "conda list pyarrow" to verify installation success and version 
 Install Fastparquet - "conda install -c conda-forge fastparquet"
 Run the command "conda list fastparquet" to verify install was successful and version installed
 
-Libraries and dependancies:
+# Libraries and dependancies:
 # Import findspark and initialize
 import findspark
 # Import packages
