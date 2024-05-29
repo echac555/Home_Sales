@@ -66,7 +66,6 @@ Uncache the home_sales temporary table.
 Verify that the home_sales temporary table is uncached using PySpark.
 
 Table of contents:
-.conda - contains virtual environment created to run the libraries
 parquet_home_sales - contains the output from the parquet component of the code
 Home_Sales.ipynb - contains the code used to determine the outcomes to the questions above
 README.md - contains the overview of the assignment, features of what was done in the assignment, requirements need to be installed to run notebook, instructions on the assignment, table of contents and references used to assist in the assignment.
