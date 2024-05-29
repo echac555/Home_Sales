@@ -13,12 +13,12 @@ To run notebook the following must be installed to your environment (Mac):
 Install Java - "brew install openjdk" 
 Run the command "java -version" to verify Java version installed
 Install PySpark - "pip install pyspark==3.5.1" (Could also use "pip install pyspark" to install most current version)
-Run the command "spark-submit --version" to verify install was sucessful
+Run the command "spark-submit --version" to verify install was sucessful and version installed
 Install Findspark - "conda install -c conda-forge findspark"
 Install PyArrow - "conda install -c conda-forge pyarrow"
-Run the command "conda list pyarrow" to verify installation success
+Run the command "conda list pyarrow" to verify installation success and version installed
 Install Fastparquet - "conda install -c conda-forge fastparquet"
-Run the command "conda list fastparquet" to verify install was successful 
+Run the command "conda list fastparquet" to verify install was successful and version installed
 
 Getting started:
 # Import findspark and initialize
