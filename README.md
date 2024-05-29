@@ -31,6 +31,11 @@ spark = SparkSession.builder.appName("SparkSQL").getOrCreate()
 # Read in the AWS S3 bucket into a DataFrame.
 from pyspark import SparkFiles
 
+# Getting started:
+Clone Home_Sales repository to local drive
+Initialize Libraries and dependancies listed above in the Home_Sales.ipynb notebook
+Execute the code to see results
+
 # Instructions:
 Rename the Home_Sales_starter_code.ipynb file as Home_Sales.ipynb.
 
@@ -82,6 +87,6 @@ Pyspark SQL cheat sheet used to verify correct calls to be used:
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf
 
 ChatGPT used to assist in errors that came up during installation process and any other errors that came up during writing out the code:
-chatgpt.com
+[chatgpt.com](https://chatgpt.com/)
 
 Class materials was referenced to assist with structure and find certain components of the code that was required.
