@@ -2,13 +2,14 @@
 
 In this challenge, you'll use your knowledge of SparkSQL to determine key metrics about home sales data. Then you'll use Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
 
-Features:
+# Features:
 Setup PySpark environment
 Load and preprocess data
 Perform data transformations
 Execute SQL queries
 Measure execution time of operations
 
+# Requirements:
 To run notebook the following must be installed to your environment (Mac):
 Install Java - "brew install openjdk" 
 Run the command "java -version" to verify Java version installed
@@ -30,7 +31,7 @@ spark = SparkSession.builder.appName("SparkSQL").getOrCreate()
 # Read in the AWS S3 bucket into a DataFrame.
 from pyspark import SparkFiles
 
-Instructions:
+# Instructions:
 Rename the Home_Sales_starter_code.ipynb file as Home_Sales.ipynb.
 
 Import the necessary PySpark SQL functions for this assignment.
@@ -65,12 +66,12 @@ Uncache the home_sales temporary table.
 
 Verify that the home_sales temporary table is uncached using PySpark.
 
-Table of contents:
+# Table of contents:
 parquet_home_sales - contains the output from the parquet component of the code
 Home_Sales.ipynb - contains the code used to determine the outcomes to the questions above
 README.md - contains the overview of the assignment, features of what was done in the assignment, requirements need to be installed to run notebook, instructions on the assignment, table of contents and references used to assist in the assignment.
 
-References:
+# References:
 Master documentation used to assist with structure of running pyspark and the different components involved:
 https://spark.apache.org/docs/latest/api/python/index.html
 
